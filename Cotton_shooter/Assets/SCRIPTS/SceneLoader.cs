@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public void VolverInicio()
+    public void LVL1()
     {
         SceneManager.LoadScene(1);
     }
@@ -23,6 +23,16 @@ public class SceneLoader : MonoBehaviour
     public void Credits()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void LVL2()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void LVL3()
+    {
+        SceneManager.LoadScene(5);
     }
 }
 
