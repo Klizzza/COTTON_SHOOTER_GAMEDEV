@@ -7,12 +7,12 @@ public class SceneLoader : MonoBehaviour
 {
     public void LVL1()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(4);
     }
 
     public void Opciones()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(1);
     }
 
     public void MainMenu()
@@ -20,19 +20,24 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void Credits()
+    public void Cutscene()
     {
         SceneManager.LoadScene(2);
     }
 
+    public void Credits()
+    {
+        SceneManager.LoadScene(3);
+    }
+
     public void LVL2()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 
     public void LVL3()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
 }
 
