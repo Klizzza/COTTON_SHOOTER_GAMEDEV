@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LVL3.unity
     guid: 1031d0c9e5610794683d540e045694fe
+  - enabled: 1
+    path: Assets/Scenes/LoseScene.unity
+    guid: 09d1d9fd708922d4dad5340e4fffc76c
   m_configObjects: {}
