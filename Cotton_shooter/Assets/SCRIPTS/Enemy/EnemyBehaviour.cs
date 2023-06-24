@@ -7,7 +7,7 @@ public class EnemyBehaviour : MonoBehaviour
 {
     // Variables
     [SerializeField] private NavMeshAgent enemy;
-    [SerializeField] private Transform player;
+    [SerializeField] private GameObject Objetivo;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +18,11 @@ public class EnemyBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemy.SetDestination(player.position);
+        Find();
+        enemy.SetDestination(Objetivo.transform.position);
+    }
+    void Find()
+    {
+        Objetivo = GameObject.Find("Capsule");
     }
 }
