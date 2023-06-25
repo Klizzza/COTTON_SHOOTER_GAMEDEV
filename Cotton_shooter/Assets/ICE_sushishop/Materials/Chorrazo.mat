@@ -92,7 +92,7 @@ Material:
     - _Gloss: 0.492
     - _Gloss2: 0.763
     - _GlossMapScale: 1
-    - _Glossiness: 0.955
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _Ice_fres: 2.54
     - _Ice_fresnel: 0.83
